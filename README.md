@@ -12,7 +12,7 @@ NER is important because it enables machines to understand and extract meaningfu
 Nevertheless, the NER task has several challenges. One major difficulty is that named entities can be ambiguous and vary in different contexts. For example, the word "Jaguar" can refer to an animal or a company. To solve these ambiguities, we need a deep understanding of the context and general knowledge. Additionally, named entities can have complex structures like compound names or nested entities, which makes their detection and classification more difficult. Another challenge in NER is the lack of labeled training data. Annotated datasets are often limited, especially for specialized domains or languages. Collecting and labeling large-scale datasets for NER can be time-consuming and expensive. This scarcity of labeled data can affect the performance of NER models, especially for less common or emerging entities.
 
 
-In this project, I will explore two approaches for the NER problem: the CRF (Conditional Random Fields)  as a machine learning model and using the Transformers as a deep learning model. I aim to enhance the performance of these models by addressing the challenges they encounter and finding effective solutions. By studying and improving these approaches, I hope to contribute to the advancement of NER technology and its applications in natural language processing. 
+In this project, I will explore two approaches for the NER problem: the CRF (Conditional Random Fields)  as a machine learning model and using the Transformers as a deep learning model. I aim to enhance the performance of these models by addressing the challenges they encounter and finding effective solutions.
 
 
 ## 2. State of the art
@@ -29,6 +29,7 @@ In the Deep Learning Approach, Recurrent Neural Networks (RNNs) and Transformers
 
 This approach demonstrated in the Keras documentation example, involves tokenizing the input text, encoding labels, and training the BERT model using TensorFlow's Keras API. The trained model can then predict entity labels for new text by assigning the most probable label to each token. By leveraging transformers, known for capturing contextual information and long-range dependencies, this deep learning approach showcases the effectiveness of NER in accurately identifying named entities.
 
+In this project, my objective is to enhance the precision, recall, and F1 score of Named Entity Recognition (NER) on the CoNLL-2003 dataset. I will investigate the effects of modifying the dataset and tuning hyperparameters of the CRF model and also, I will explore the potential of different deep neural network architectures. By studying and improving these approaches, I hope to contribute to the advancement of NER technology and its applications in natural language processing
 
 
 ## 3. Your approach (1 pages)
