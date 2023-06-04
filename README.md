@@ -32,12 +32,20 @@ This approach demonstrated in the Keras documentation example, involves tokenizi
 In this project, my objective is to enhance the precision, recall, and F1 score of Named Entity Recognition (NER) on the CoNLL-2003 dataset. I will investigate the effects of modifying the dataset and tuning hyperparameters of the CRF model and also, I will explore the potential of different deep neural network architectures. By studying and improving these approaches, I hope to contribute to the advancement of NER technology and its applications in natural language processing
 
 
-## 3. Your approach (1 pages)
+## 3. Your approach
 
-> - define your goal as precise as possible
-> - how do you plan to achieve your goal? give a short overview of your project, high-level scenario
-> - how did you come up with your plan?  
-> - how do you evaluate if your solution works
+The primary objective of this research is to improve the performance of Named Entity Recognition (NER) through various approaches. The focus lies on enhancing the evaluation metrics on the testing data. To achieve this, several strategies will be employed.
+
+
+One aspect of the research involves fine-tuning the hyperparameters of the CRF model to tackle the challenge of overfitting. The number of iterations will be adjusted, and the values of L1 and L2 regularization (c1 and c2) will be fine-tuned through a rigorous process. By exploring a range of hyperparameter values using random search and evaluating their performance using k-fold cross-validation, optimal settings will be identified to enhance the model's generalization capabilities.
+
+Considering the imbalanced nature of the dataset, special attention will be given to tackling this issue. Class weighting techniques will be implemented to assign higher importance to the minority classes, enabling the model to better capture their patterns and improve their recognition. Moreover, undersampling of majority class instances will be employed to create a more balanced representation of the dataset, mitigating the bias towards the majority class and allowing the model to better learn from the minority class samples.
+
+
+In addition to the CRF model, the research will explore the utilization of deep neural network architectures, with a particular focus on the powerful BERT model. By leveraging the pretraining and transfer learning capabilities of BERT, the model will be fine-tuned specifically for NER. This approach aims to harness the contextual information captured by BERT to improve the identification and classification of named entities.
+
+
+Finally, The outcomes of the introduced changes and modifications will be meticulously analyzed and reported. A comprehensive evaluation will be conducted, comparing the performance metrics of the proposed solutions against the baseline models. This analysis will provide valuable insights into the effectiveness of the implemented approaches and their impact on enhancing NER performance. Through this research, a deeper understanding of the impact of hyperparameter tuning, data balancing techniques, and the incorporation of deep neural network architectures will be gained.
 
 
 ## 4. Data and methods (3 pages)
