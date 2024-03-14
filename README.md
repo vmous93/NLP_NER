@@ -14,6 +14,7 @@ In this project, I will explore two approaches for the NER problem: the CRF (Con
 
 References
 [1] T. K. Sang, F. Erik, and D. M. Fien, “Introduction to the CoNLL-2003 shared task: Language-independent named entity recognition,” In Proceedings of the Seventh Conference on Natural Language Learning at HLT-NAACL, pages 142–147., 2003.
+
 [2] R. Weischedel, M. Palmer, M. Marcus, E. Hovy, and S. Pradhan, “Ontonotes release 5.0 ldc2013t19,” Web Download. Philadelphia: Linguistic Data Consortium, 2013.
 [3] A. Arun, C. Dyer, and P. Koehn, “Monte carlo inference and maximization for phrase-based translation.,” In Proceedings of the Thirteenth Conference on Computational Natural Language Learning, pages 102–110, 2009.
 [4] J. Laﬀerty, A. McCallum, and F. Pereira, “Conditional random felds: Probabilistic models for segmenting and labeling sequence data.,” In Proceedings of the 18th International Conference on Machine Learning (ICML), pp. 282-289), 2001.
