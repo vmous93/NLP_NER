@@ -1,4 +1,4 @@
-#### vahid Mousavinezhad
+#### Vahid Mousavinezhad
 
 Named Entity Recognition (NER) is a crucial NLP task that identifies and classifies named entities in text, including names, organizations, locations, and more. It plays a vital role in various applications like information retrieval, question answering, translation, sentiment analysis, and summarization. The main objective of NER is to precisely recognize and categorize named entities present in a text. This process entails two essential steps: detecting the boundaries of the entities, which involves identifying the starting and ending positions of the named entities and classifying the entities by assigning a predetermined label or category to each one. For example, in the sentence "Elon Musk has a plan to go to Mars." NER would classify "Elon Musk" as a person and "Mars" as a location.
 
